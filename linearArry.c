@@ -36,6 +36,7 @@ int main()
     int arr[10] = {1,2,3,5,6};
     int size = 5;
     int index = 2;
+    printf("Adding Elements\n");
     addElement(arr,7,5,10,size);
     size+=1;
     display(arr,size);
